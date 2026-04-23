@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table, th, td {
+    border: 3px solid rgb(109, 12, 116);
+    border-collapse: collapse;
+}
+
+input[type="button"] {
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    background-color: rgb(5, 116, 153);
+}
+table {
+    margin: 15px;
+    height: auto;
+    width: auto;
+    background-color: lightblue;
+}
