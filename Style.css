@@ -1,25 +1,41 @@
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-table, th, td {
-    border: 3px solid rgb(109, 12, 116);
-    border-collapse: collapse;
+th {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
 }
 
 input[type="button"] {
+    font-size: 40px;/*Tamaño de fuente*/
+    padding: 20px 40px;
+    font-weight: bold; /*Agrega negrita al texto del botón*/
     margin: 0 auto;
-    height: 30px;
-    width: 100px;
+    margin-top: 20px;
     display: flex;
-    background-color: rgb(5, 116, 153);
+    background-color: rgba(5, 55, 255, 0.907);
 }
-table {
-    margin: 15px;
-    height: auto;
-    width: auto;
-    background-color: lightblue;
+
+#tabla {
+    display: flex;
+    flex-wrap: wrap; /* permite que bajen en filas */
+    justify-content: center;
+    gap: 30px; /* espacio entre tablas */
+    padding: 20px;
+}
+
+/* cada tabla dentro */
+#tabla div {
+    flex: 0 0 auto;
 }
